@@ -1,19 +1,19 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Traits\MicroServiceJsonResponseTrait.
+ * Contains \biliboobrian\MicroServiceCore\Traits\MicroServiceJsonResponseTrait.
  */
 
-namespace LushDigital\MicroServiceCore\Traits;
+namespace biliboobrian\MicroServiceCore\Traits;
 
-use LushDigital\MicroServiceCore\Enum\Status;
-use LushDigital\MicroServiceCore\Helpers\MicroServiceHelper;
-use LushDigital\MicroServiceCore\Pagination\Paginator;
+use biliboobrian\MicroServiceCore\Enum\Status;
+use biliboobrian\MicroServiceCore\Helpers\MicroServiceHelper;
+use biliboobrian\MicroServiceCore\Pagination\Paginator;
 
 /**
  * A trait for creating a microservice JSON response.
  *
- * @package LushDigital\MicroServiceCore\Traits
+ * @package biliboobrian\MicroServiceCore\Traits
  */
 trait MicroServiceJsonResponseTrait
 {

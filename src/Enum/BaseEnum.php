@@ -1,17 +1,17 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Enum\BaseEnum.
+ * Contains \biliboobrian\MicroServiceCore\Enum\BaseEnum.
  */
 
-namespace LushDigital\MicroServiceCore\Enum;
+namespace biliboobrian\MicroServiceCore\Enum;
 
 use ReflectionClass;
 
 /**
  * An abstract base class to use for all enum classes.
  *
- * @package LushDigital\MicroServiceCore\Enum
+ * @package biliboobrian\MicroServiceCore\Enum
  */
 abstract class BaseEnum
 {

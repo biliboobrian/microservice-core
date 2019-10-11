@@ -1,15 +1,15 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Traits\MicroServiceStringTrait.
+ * Contains \biliboobrian\MicroServiceCore\Traits\MicroServiceStringTrait.
  */
 
-namespace LushDigital\MicroServiceCore\Traits;
+namespace biliboobrian\MicroServiceCore\Traits;
 
 /**
  * A trait for string handling for microservices.
  *
- * @package LushDigital\MicroServiceCore\Traits
+ * @package biliboobrian\MicroServiceCore\Traits
  */
 trait MicroServiceStringTrait
 {

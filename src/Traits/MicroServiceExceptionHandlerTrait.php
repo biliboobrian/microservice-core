@@ -1,22 +1,22 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Traits\MicroServiceExceptionHandlerTrait.
+ * Contains \biliboobrian\MicroServiceCore\Traits\MicroServiceExceptionHandlerTrait.
  */
 
-namespace LushDigital\MicroServiceCore\Traits;
+namespace biliboobrian\MicroServiceCore\Traits;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;
-use LushDigital\MicroServiceCore\Enum\Status;
+use biliboobrian\MicroServiceCore\Enum\Status;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 /**
  * A trait for handling common services exceptions.
  *
- * @package LushDigital\MicroServiceCore\Traits
+ * @package biliboobrian\MicroServiceCore\Traits
  */
 trait MicroServiceExceptionHandlerTrait
 {

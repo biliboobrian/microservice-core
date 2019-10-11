@@ -1,15 +1,15 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Pagination\Paginator.
+ * Contains \biliboobrian\MicroServiceCore\Pagination\Paginator.
  */
 
-namespace LushDigital\MicroServiceCore\Pagination;
+namespace biliboobrian\MicroServiceCore\Pagination;
 
 /**
  * Class to manage pagination.
  *
- * @package LushDigital\MicroServiceCore\Pagination
+ * @package biliboobrian\MicroServiceCore\Pagination
  */
 class Paginator
 {

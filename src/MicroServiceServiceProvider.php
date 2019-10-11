@@ -1,17 +1,17 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\MicroServiceServiceProvider;
+ * Contains \biliboobrian\MicroServiceCore\MicroServiceServiceProvider;
  */
 
-namespace LushDigital\MicroServiceCore;
+namespace biliboobrian\MicroServiceCore;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Service provider for core Micro Service functionality.
  *
- * @package LushDigital\MicroServiceCore
+ * @package biliboobrian\MicroServiceCore
  */
 class MicroServiceServiceProvider extends ServiceProvider
 {
@@ -26,6 +26,6 @@ class MicroServiceServiceProvider extends ServiceProvider
         require_once __DIR__ . '/Http/routes.php';
 
         // Let Laravel Ioc Container know about our Controller
-        $this->app->make('LushDigital\MicroServiceCore\Http\Controllers\MicroServiceController');
+        $this->app->make('biliboobrian\MicroServiceCore\Http\Controllers\MicroServiceController');
     }
 }

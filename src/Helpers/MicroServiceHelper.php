@@ -1,19 +1,19 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Helpers.
+ * Contains \biliboobrian\MicroServiceCore\Helpers.
  */
 
-namespace LushDigital\MicroServiceCore\Helpers;
+namespace biliboobrian\MicroServiceCore\Helpers;
 
 use Exception;
-use LushDigital\MicroServiceCore\Enum\Status;
+use biliboobrian\MicroServiceCore\Enum\Status;
 use stdClass;
 
 /**
  * A helper class to provide useful functionality common to all microservices.
  *
- * @package LushDigital\MicroServiceCore\Helpers
+ * @package biliboobrian\MicroServiceCore\Helpers
  */
 class MicroServiceHelper
 {

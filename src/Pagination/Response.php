@@ -1,17 +1,17 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Pagination\Response.
+ * Contains \biliboobrian\MicroServiceCore\Pagination\Response.
  */
 
-namespace LushDigital\MicroServiceCore\Pagination;
+namespace biliboobrian\MicroServiceCore\Pagination;
 
 use Illuminate\Support\Str;
 
 /**
  * Class to represent a pagination response.
  *
- * @package LushDigital\MicroServiceCore\Pagination
+ * @package biliboobrian\MicroServiceCore\Pagination
  */
 class Response
 {

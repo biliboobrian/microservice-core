@@ -1,15 +1,15 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Enum\Status.
+ * Contains \biliboobrian\MicroServiceCore\Enum\Status.
  */
 
-namespace LushDigital\MicroServiceCore\Enum;
+namespace biliboobrian\MicroServiceCore\Enum;
 
 /**
  * Enum class for possible response statuses.
  *
- * @package LushDigital\MicroServiceCore\Enum
+ * @package biliboobrian\MicroServiceCore\Enum
  */
 final class Status extends BaseEnum
 {

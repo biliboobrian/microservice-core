@@ -1,25 +1,25 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Http\Controllers\MicroServiceController.
+ * Contains \biliboobrian\MicroServiceCore\Http\Controllers\MicroServiceController.
  */
 
-namespace LushDigital\MicroServiceCore\Http\Controllers;
+namespace biliboobrian\MicroServiceCore\Http\Controllers;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Laravel\Lumen\Routing\Controller as BaseController;
-use LushDigital\MicroServiceCore\Enum\Status;
-use LushDigital\MicroServiceCore\Helpers\MicroServiceHelper;
-use LushDigital\MicroServiceCore\Traits\MicroServiceJsonResponseTrait;
+use biliboobrian\MicroServiceCore\Enum\Status;
+use biliboobrian\MicroServiceCore\Helpers\MicroServiceHelper;
+use biliboobrian\MicroServiceCore\Traits\MicroServiceJsonResponseTrait;
 
 /**
  * A base controller for use in microservices.
  *
  * Provides info and health check endpoints expected by the service registry.
  *
- * @package LushDigital\MicroServiceCore\Http\Controllers
+ * @package biliboobrian\MicroServiceCore\Http\Controllers
  */
 class MicroServiceController extends BaseController
 {

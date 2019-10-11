@@ -1,15 +1,15 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceCore\Traits\MicroServiceDateTrait.
+ * Contains \biliboobrian\MicroServiceCore\Traits\MicroServiceDateTrait.
  */
 
-namespace LushDigital\MicroServiceCore\Traits;
+namespace biliboobrian\MicroServiceCore\Traits;
 
 /**
  * A trait for date handling for microservices.
  *
- * @package LushDigital\MicroServiceCore\Traits
+ * @package biliboobrian\MicroServiceCore\Traits
  */
 trait MicroServiceDateTrait
 {
